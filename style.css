@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@media 
+  (max-device-width: 218px)
+  and (max-device-height: 281px) { 
+    .wrapped {
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        
+      }
+      .schedule-demo {
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+        padding: 7px;
+        border-radius: 20px;
+      
+        background-color: rgb(43, 43, 133);
+      }
+}
+.wrapped {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.header {
+  height: 400px;
+  background-color: blue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  padding: 15px;
+}
+.header-navigator {
+    cursor: pointer;
+  justify-content: space-between;
+  display: flex;
+}
+.header-navigator img {
+    cursor: pointer;
+  filter: invert(100%);
+  opacity: 0.5;
+  -webkit-filter: invert(100%);
+  padding-right: 10px;
+  height: 15px;
+}
+.header-navigator span {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header-section1 {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header-section2 h5 {
+  margin-top: 20px;
+}
+.header-section2 h6 {
+  margin-top: 20px;
+}
+.login-section {
+  padding: 25px;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+  align-items: center;
+  background-color: antiquewhite;
+  height: 250px;
+  width: 250px;
+}
+.input-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.login-input input {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+  flex-wrap: wrap;
+  border: 1px solid;
+  opacity: 0.5;
+  padding: 7px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+.email {
+  opacity: 0.5;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.login-input {
+  display: flex;
+  object-fit: cover;
+}
+.input-section2 {
+  margin-top: 10px;
+}
+
+.shedule-section {
+    cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  background-color: rgb(71, 71, 252);
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.specialist-section {
+    cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(101, 99, 236);
+  border: 1px solid rgb(121, 132, 228);
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.footer {
+  color: rgb(50, 50, 119);
+  margin-top: 50px;
+  text-align: center;
+
+}
+.footer h5 {
+  margin-top: 10px;
+}
+
+.footer-container {
+  align-items: center;
+
+  justify-content: space-between;
+  padding-top: 35px;
+  text-align: center;
+  display: flex;
+}
+
+.footer-container img {
+    cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+.footer-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.schedule-demo {
+    cursor: pointer;
+    width: 200px;
+margin:auto;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+
+  background-color: rgb(43, 43, 133);
+}
+.schedule-demo p {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
